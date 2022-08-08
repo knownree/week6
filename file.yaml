@@ -1,0 +1,12 @@
+file_type: csv
+dataset_name: testfile
+file_name: Cab_data
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns: 
+    - city
+    - company
+    - cost_of_trip
+    - transaction_id
